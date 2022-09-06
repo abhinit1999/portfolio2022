@@ -12,7 +12,7 @@ const index = () => {
           <span className="bio">MY BIO</span>
           <hr className="horizontal_line" />
           <span className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            Loremff3f ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             quaerat vero consectetur quis, quibusdam aliquid alias saepe, quam
             totam tempora nobis ab aperiam. Porro, nostrum cupiditate blanditiis
             nemo corrupti in cum, consequuntur error natus illum sit eum quam
