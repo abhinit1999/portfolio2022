@@ -76,7 +76,23 @@
     margin-top:1rem;
     margin-bottom:1rem;
 }
-
+.cv_btn
+{
+    padding: .3rem;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(228, 224, 99);
+    color: rgb(138, 85, 85);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.cv_btn:hover
+{
+    background-color:black;
+    color: white;
+}
 
 @media (max-width:1035px)
 {

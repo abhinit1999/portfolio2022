@@ -1,10 +1,33 @@
-h1
+.h1
 {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw !important;
     height: 5rem;
     background-color: black;
     color: white;
     text-align: center;
+}
+
+@media (max-width:735px)
+{
+
+
+}
+@media (max-width:535px)
+{
+    .h1
+    {
+        height: 1rem;
+    }
+}
+@media (max-width:335px)
+{
+    .h1
+    {
+        height: 1rem;
+        bottom: 0;
+        position: fixed;
+        width: 100vw !important;
+    }
 }

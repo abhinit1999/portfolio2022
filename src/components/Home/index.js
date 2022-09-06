@@ -2,6 +2,10 @@ import React from "react";
 import "./style.css";
 import pic from "./photo.JPG";
 const index = () => {
+
+
+
+
   return (
     <div className="container">
       <div className="home">
@@ -21,21 +25,11 @@ const index = () => {
             Voluptates accusamus praesentium consequuntur non, iure corrupti
             sint. Mollitia, tempore impedit? Soluta nemo aliquam atque aut quae
             sed facilis repellendus doloribus perferendis nostrum alias corrupti
-            eius placeat reiciendis quos porro, temporibus enim et quasi ducimus
-            consequatur ipsam aliquid? Aspernatur quod tempore quidem
-            perspiciatis corporis voluptatem, cumque cum labore debitis corrupti
-            voluptates ipsum, asperiores vel nam repellendus ea numquam, nihil
-            est delectus qui natus rem consectetur. Adipisci saepe sint magnam
-            minima? Officiis optio eaque suscipit magni aut quaerat doloribus at
-            accusantium ipsum omnis et nam iure sed, tempora soluta quisquam est
-            molestias. Eius et voluptatibus esse non repellat? Sit perspiciatis
-            sequi nam, aliquam aspernatur molestiae enim aliquid quo quae
-            dolorem recusandae omnis velit magnam voluptatem aut quod
-            accusantium repellendus officia ab harum asperiores neque.
-            Voluptatem corporis sit possimus necessitatibus ducimus eum
-            mollitia, quasi harum aspernatur ex cupiditate neque quia sunt?
-            Iusto enim quo tempora in quas.
+
           </span>
+    <a href="#">
+    <button className="cv_btn">Download CV</button>
+    </a>
         </div>
       </div>
     </div>
