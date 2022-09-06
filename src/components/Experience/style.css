@@ -1,0 +1,23 @@
+
+.left_skill >h3
+{
+    color: rgb(83, 193, 94);
+}
+
+.left_skill div
+{
+    display: grid;
+    row-gap: 2rem;
+}
+
+
+.right_skill >h3
+{
+    color: rgb(83, 193, 94);
+}
+.details
+{
+    display: grid;
+    row-gap: 2rem;
+
+}
