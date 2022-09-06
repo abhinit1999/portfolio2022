@@ -1,0 +1,73 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    
+    background-color: rgb(21, 7, 89);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(240, 215, 215);
+    top: 0;
+    position:fixed;
+    
+   
+}
+.logo
+{
+    font-size: 2rem;
+   
+}
+
+.logo::after
+{
+   content: 'Abhinit'; 
+   position:fixed;
+   top: 0.2rem;
+
+}
+
+.logo:hover
+{
+    color: white;
+ 
+    
+
+}
+.logo:hover::after
+{
+    content: "My Portfolio";
+}
+
+
+
+ul
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    
+}
+li
+{
+    
+    list-style: none;
+
+}
+
+.nav_Style
+{
+    text-decoration: none;
+    padding: 1.2rem;
+    color: white;
+}
+
+@media (max-width:535px)
+{
+    
+}
