@@ -6,7 +6,7 @@ main{
     display: flex;
     justify-content: center;
     text-align:center;
-    
+    background-color: rgb(221, 227, 217);
     
 
 }
@@ -19,6 +19,7 @@ main{
     background-color: rgb(211, 197, 197);
     width: 80%;
     height: auto;
+    
     
    
    

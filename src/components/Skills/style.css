@@ -7,15 +7,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(110, 122, 171);
     color: white;
    
 }
 
 .sub_skill
 {
-    width: 100%;
+    width: 80%;
     height: 100vh;
-    background-color: rgb(245, 241, 241);
+    background-color: rgb(162, 175, 218);
     color: rgb(14, 1, 1);
     margin-right: -1px;
     margin-bottom: 2rem;
@@ -38,6 +39,7 @@
     letter-spacing: 2px;
     line-height: 1.6rem;
     font-size:1.12rem;
+    /* color: white; */
     
    
    
@@ -83,7 +85,7 @@ progress
     {
         display: grid;
         grid-template-rows: repeat(2,1fr);
-        height: 100vh;
+        height: 100%;
         width: 500px !important;
         background-color: rgb(237, 185, 185);
         margin-left: 5rem;
@@ -137,9 +139,9 @@ progress
         grid-template-rows: repeat(2,1fr);
         height: 100%;
      
-        width: 100% !important;
+        /* width: 100% !important; */
         background-color: rgb(237, 185, 185);
-        margin-left: 0rem;
+        margin-left: 5rem;
         margin-right:0rem;
 
         color: white;
@@ -163,7 +165,7 @@ progress
     {
         width: 100px;
         margin-left: 0rem;
-        /* margin-right:-2rem; */
+        margin-right:-2rem;
         background-color: #fff;
         color: rgb(14, 13, 13);
     }
