@@ -9,7 +9,7 @@ const index = () => {
       <div className="logo">
         
       </div>
-      <ul>
+      <ul className='nav_ul'>
         <li>
           <NavLink className="nav_Style" to="/">About</NavLink>
         </li>
