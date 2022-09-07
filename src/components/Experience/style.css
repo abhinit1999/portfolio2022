@@ -1,7 +1,9 @@
 
 .left_skill >h3
 {
-    color: rgb(83, 193, 94);
+    color: rgb(20, 15, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
 }
 
 .left_skill div
@@ -13,7 +15,10 @@
 
 .right_skill >h3
 {
-    color: rgb(83, 193, 94);
+    color: rgb(20, 15, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+
 }
 .details
 {

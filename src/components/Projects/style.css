@@ -25,6 +25,12 @@ main{
    
     
 }
+.pro1 ,.pro2 ,.pro3 ,.pro4, h2
+{
+    color: rgb(50, 9, 94);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 
 .pro1 ,.pro2 ,.pro3 ,.pro4
 {
@@ -40,7 +46,11 @@ main{
 }
 .details
 {
- 
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 1.2px;
+font-size: 1.1rem;
+
+
 
 }
 .pro3,.pro4

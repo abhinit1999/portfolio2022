@@ -87,7 +87,7 @@ const index = () => {
           </p>
         </div>
         <div className="pro4">
-          <h3>My Portfolio</h3>
+          <h2>My Portfolio</h2>
           <hr className="horizontal_line" />
 
           <p className="details">

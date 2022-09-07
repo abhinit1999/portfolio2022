@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .my_pic
 {
@@ -66,6 +67,13 @@
     font-size: 2rem;
     font-weight: 500;
     font-family:'Courier New', Courier, monospace;
+}
+.text
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+    font-size:1.12rem;
 }
 
 .horizontal_line
@@ -341,5 +349,13 @@
         margin-top: 0px;
         margin-bottom: 0px;
         background-color: #fff;
+    }
+}
+
+@media (min-width:290px)
+{
+    .strong
+    {
+        color: green;
     }
 }
