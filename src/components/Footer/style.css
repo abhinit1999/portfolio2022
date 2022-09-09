@@ -93,7 +93,7 @@ color: rgb(134, 86, 86);
 @media (min-width: 935px)
 {
     footer{
-        margin-top: 20rem;
+        margin-top: 9rem;
         bottom: 0;
         width: 100%;
     }
@@ -109,7 +109,7 @@ color: rgb(134, 86, 86);
 @media (max-width: 535px)
 {
     footer{
-        margin-top: 55rem;
+        margin-top: 0rem;
         bottom: 0;
         width: 100%;
     }
