@@ -1,6 +1,12 @@
 const mongoose = require("mongoose");
+const dotenv= require("dotenv")
 
-mongoose.connect("mongodb+srv://portfolio2022:Portfolio2022@cluster0.ikevp8z.mongodb.net/portfolio_data")
+dotenv.config({
+    path:'./config.env'
+});
+mongoose.connect(
+    process.env.MONGO_URL
+)
 .then(()=>
 {
     console.log(`conected to mongoose !!!`)

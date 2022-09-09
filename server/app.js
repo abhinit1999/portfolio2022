@@ -3,11 +3,11 @@ const express = require("express");
 require("./db/conn");
 const cors = require("cors");
 
-
 const user = require("./model/user");
 const app = express();
 const port = process.env.PORT || 3001;
 app.use(express.json());
+
 
 app.use(cors());
 app.get("/",(req,res)=>
