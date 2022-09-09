@@ -10,7 +10,7 @@ const Index = () => {
     name:"",
     email:"",
     phone:"",
-    // message:"",
+    message:"",
 
   })
 
@@ -29,7 +29,7 @@ const Index = () => {
 const postData = async (e) => {
   e.preventDefault();
 
-  const { name, email, phone} = user;
+  const { name, email, phone,message} = user;
 
   const resp = await fetch("http://localhost:3001/user", {
     method: "POST",
@@ -40,6 +40,8 @@ const postData = async (e) => {
       name,
       email,
       phone,
+      message,
+
     
     }),
 
@@ -52,11 +54,11 @@ const postData = async (e) => {
 
   console.log(data);
   if (data.status === 422 || !data) {
-    window.alert("Invalid Registration");
-    console.log("Invalid Registration");
+    window.alert("Invalid Data");
+    console.log("Invalid data");
   } else {
-    window.alert("Registration Successful");
-    console.log("registeration successful");
+    window.alert("Your message has been sent");
+    console.log("Your message has been sent");
 
   
   }
@@ -65,6 +67,7 @@ const postData = async (e) => {
     name:"",
     email:"",
     phone:"",
+    message:"",
   })
   
 };
@@ -117,21 +120,20 @@ const postData = async (e) => {
                 placeholder="YOUR Mobile"
                 id="phone"
                 name="phone"
-              value={user.name}
+              value={user.phone}
               onChange={handleInputs}
               />
             </label>
-            {/* <textarea
+            <textarea
               name="message"
               id="message"
               cols="70"
               rows="10"
               placeholder="YOUR Message"
-              id="message"
-              name="message"
-              value={user.name}
+         
+              value={user.message}
               onChange={handleInputs}
-            ></textarea> */}
+            ></textarea>
             
               <button type="submit" className="btn_cnt" >SUBMIT</button>
            
