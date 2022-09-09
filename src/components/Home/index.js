@@ -31,7 +31,7 @@ const index = () => {
             </strong>
             Endlessly strive to learn through different activities.
           </span>
-          <a href="https://drive.google.com/file/d/1jw4iRWHLrVdAFPd3olP9sOXtFPlCLjDl/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1jw4iRWHLrVdAFPd3olP9sOXtFPlCLjDl/view?usp=sharing" target="_blank">
             <button className="cv_btn">Download CV</button>
           </a>
         </div>
